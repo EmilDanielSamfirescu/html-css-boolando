@@ -206,12 +206,20 @@ nav ul > li {
     list-style: none;
     display: inline-block;
     padding-right: 5px;
+    font-size: 0.9em;
 }
 
 .col-footer-right, .col-footer-left {
     line-height: 30px;
     padding-top: 10px;
 }
+
+
+.find {
+    padding-right: 10px;
+}
+
+
 
 
 /* 
