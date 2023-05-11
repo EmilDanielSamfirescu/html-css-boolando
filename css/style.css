@@ -164,6 +164,8 @@ FOOTER
 
 footer {
     background-color: #1A1A1A;
+    height: 60px;
+    margin-top: 30px;
 }
 
 footer * {
@@ -173,6 +175,24 @@ footer * {
 .col-footer {;
     width: calc(100% / 2);
 }
+
+nav ul > li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.privacy nav ul > li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.col-footer-right, .col-footer-left {
+    line-height: 20px;
+    padding-top: 10px;
+}
+
 
 /* 
 DEBUG 
@@ -191,7 +211,7 @@ DEBUG
     border: 1px dashed black;
 } */
 
-.debug .col-footer {
+/* .debug .col-footer {
     border: 1px dashed blue;
-}
+} */
 
