@@ -1,6 +1,8 @@
 /* 
 TIPHOGRAPHY SYSTEM
 -COLORS
+#FF6800
+#1A1A1A
 
 */
 
@@ -18,18 +20,84 @@ RESET
 GENERAL 
 */
 
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.my-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px
+}
+
+
 /* 
 HEADER 
 */
+
+header {
+    background-color: #FF6800;
+}
+
+header * {
+    color: white;
+}
+
+.col--center {
+    text-align: center;
+}
+
+.col--right {
+    text-align: right;
+}
+
 
 /* 
 MAIN 
 */
 
+article {
+    width: calc((100% / 3) - 20px);
+    margin: 30px 10px 15px 10px;
+}
+
+div .img-container> img {
+    width: 100%;
+    display: block;
+}
+
 /* 
 FOOTER 
 */
 
+footer {
+    background-color: #1A1A1A;
+}
+
+footer * {
+    color: white;
+}
+
 /* 
 DEBUG 
 */
+
+.debug .container {
+    border: 1px dashed black;
+}
+
+.debug .col-header {
+    border: 1px dashed blue;
+    width: calc(100% / 3);
+}
+
+.debug article {
+    background-color: aqua;
+    border: 1px dashed black;
+}
+
+.debug .col-footer {
+    border: 1px dashed blue;
+    width: calc(100% / 2);
+}
