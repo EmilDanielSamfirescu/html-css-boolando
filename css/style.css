@@ -67,6 +67,21 @@ div .img-container> img {
     display: block;
 }
 
+.img-container .second-img {
+    display: none;
+}
+
+article:hover .second-img {
+    display: block;
+}
+
+article:hover img:not(.second-img) {
+    display: none;
+}
+
+
+
+
 /* 
 FOOTER 
 */
@@ -77,6 +92,10 @@ footer {
 
 footer * {
     color: white;
+}
+
+.col-footer {;
+    width: calc(100% / 2);
 }
 
 /* 
@@ -99,5 +118,8 @@ DEBUG
 
 .debug .col-footer {
     border: 1px dashed blue;
-    width: calc(100% / 2);
 }
+
+
+
+
