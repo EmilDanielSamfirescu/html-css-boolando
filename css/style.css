@@ -109,11 +109,11 @@ div .img-container> img {
     display: none;
 }
 
-article:hover .second-img {
+.img-container:hover .second-img {
     display: block;
 }
 
-article:hover img:not(.second-img) {
+.img-container:hover img:not(.second-img) {
     display: none;
 }
 
